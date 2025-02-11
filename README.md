@@ -1,66 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# FreelanceHours
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Thumbnail](https://github.com/user-attachments/assets/5d6ab4bb-3c17-41de-a97d-68d2e2a8f043)
 
-## About Laravel
+FreelanceHours é uma plataforma no estilo rede social desenvolvida em PHP com o framework Laravel, seguindo a arquitetura MVC. O projeto foi criado durante o evento de imersão em PHP com Laravel pela [Rocketseat](https://app.rocketseat.com.br/).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A plataforma permite que usuários cadastrem projetos, descrevam o trabalho e as tecnologias envolvidas, enquanto outros usuários podem dar "lances" em formato de horas de trabalho para contribuir com os projetos.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Funcionalidades
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Cadastro de Projetos**: Usuários podem cadastrar projetos, descrevendo o trabalho e as tecnologias necessárias.
+- **Lances em Horas de Trabalho**: Usuários podem dar lances em formato de horas de trabalho para contribuir com os projetos.
+- **Interface Dinâmica e Reativa**: Utilização do Livewire para criar interfaces dinâmicas e reativas.
+- **Banco de Dados SQLite**: Uso de migrations, factories e seeders para popular o banco de dados com dados fictícios.
+- **Validações**: Implementação de validações para garantir a integridade dos dados.
 
-## Learning Laravel
+## Tecnologias Utilizadas
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **PHP**: Linguagem de programação principal.
+- **Laravel**: Framework PHP utilizado para estruturar a aplicação.
+- **Livewire**: Biblioteca para criar interfaces dinâmicas e reativas.
+- **SQLite**: Banco de dados utilizado para armazenamento.
+- **Migrations, Factories e Seeders**: Ferramentas do Laravel para gerenciar e popular o banco de dados.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Estrutura do Projeto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+O projeto segue a arquitetura MVC (Model-View-Controller), com a seguinte estrutura:
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **Controllers**: Responsáveis por gerenciar a lógica da aplicação.
+- **Models**: Representam as entidades do banco de dados.
+- **Views**: Responsáveis pela apresentação dos dados ao usuário.
